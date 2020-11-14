@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: steelblue;
+    background-color: thistle;
     text-align: center;
     border: solid;
     border-color: black;
@@ -17,7 +17,7 @@ body {
     border: 8px groove black;
     padding: 20px;
     border-color: black;
-    background: darksalmon;
+    background: tan;
     background-clip: border-box;
     color: black;
     text-decoration: overline;
@@ -45,26 +45,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: black;
-  }
-
-  .button-1 {
-  background-color: white; 
-  border: none;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-}
-
-.button-2 {
-    background-color: white; 
-    border: none;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 24px;
   }
 
   .footer {
