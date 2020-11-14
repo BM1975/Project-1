@@ -1,15 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 20;
+}
+
 body {
     background-color: steelblue;
     text-align: center;
+    border: solid;
+    border-color: black;
+    border-style: double;
+    border-bottom-width: thick;
   }
+
   h1 {
+    border: 8px groove black;
+    padding: 20px;
+    border-color: black;
+    background: darksalmon;
+    background-clip: border-box;
     color: black;
     text-decoration: overline;
+    font-style: italic;
+    display: inline-block;
   }
   p {
     color:black;
+    padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
+    font-size: 150%;
   }
 
   h1 {
@@ -18,7 +38,36 @@ body {
     font-size: 300%;
   }
 
-.footer {
+  .about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: black;
+  }
+
+  .button-1 {
+  background-color: white; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.button-2 {
+    background-color: white; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+  }
+
+  .footer {
     padding: 60px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
