@@ -48,6 +48,8 @@
       color: black;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       text-align: center;
+      border: 8px groove black;
+      border-color: black;
   }
  
 
@@ -68,7 +70,7 @@
 
   #paraText{
     background-color: thistle;
-    
+    line-height: 50px
   }
  
   #home {
@@ -80,7 +82,7 @@
   }
 
   body{
-    background-color: black;
+    background-color: thistle;
   }
 
   #job {
