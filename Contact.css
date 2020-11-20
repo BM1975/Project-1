@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: thistle;
+    background-color: rgb(177, 152, 177);
     text-align: center;
     border: solid;
     border-color: black;
@@ -17,13 +17,24 @@ body {
     border: 8px groove black;
     padding: 20px;
     border-color: black;
-    background: tan;
+    background: rgb(160, 138, 160);
     background-clip: border-box;
     color: black;
     text-decoration: overline;
     font-style: italic;
     display: inline-block;
   }
+
+  h2 {
+    background: rgb(121, 102, 121);
+    padding-top: 10px;
+    bot
+    background-clip: border-box;
+    color: black;
+    text-decoration: overline;
+    font-style: italic;
+  }
+
   p {
     color:black;
     padding: 10px;
@@ -38,18 +49,111 @@ body {
     font-size: 300%;
   }
 
+  .button-1 {
+    float: right;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    width: 130px;
+    cursor: pointer;
+    margin: 0px;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: thistle;
+  }
+  button:hover span {
+    padding-right: 25px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button-2 {
+    display: block;
+    float: right;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    width: 130px;
+    cursor: pointer;
+    margin: 0px;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: thistle;
+  }
+  button:hover span {
+    padding-right: 25px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .image {
+    float: left;
+    background: black;
+    background-size: auto;
+    background-attachment: fixed;
+    padding-right: 20px;
+  }
+
   .about-me {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
+    float: right 100px;
+    background-position: top;
+    margin-left: 10px;
+    padding: 0px;
+    height: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
     color: black;
   }
 
+  .merch {
+    size: 10px;
+    
+  }
+
+  .search-engine-optimization {
+    background-color: rgb(121, 102, 121);
+  }
+
   .footer {
-    padding: 60px;
+    margin-bottom: 800px;
+    border-bottom: 500px;
+    padding: 100px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-  };
+  }
