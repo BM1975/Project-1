@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #logo{
   float: left;
   height: 80px;
@@ -23,18 +22,9 @@ img{
   border-left: solid ;
   font-family: 'Zilla Slab', serif;
 }
-body {
-    background-color: black;
-=======
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 20;
-}
 
 body {
-    background-color: thistle;
->>>>>>> 0c8e334bc9e97eb8af69d9bac26d852ef9854d75
+    background-color: black;
     text-align: center;
     border: solid;
     border-color: black;
@@ -43,7 +33,6 @@ body {
   }
 
   h1 {
-<<<<<<< HEAD
     color:rgb(184, 184, 184);
     text-decoration: overline;
     font-family: 'Zilla Slab', serif;
@@ -51,22 +40,6 @@ body {
   p {
     color:rgb(184, 184, 184);
     font-family: 'Zilla Slab', serif;
-=======
-    border: 8px groove black;
-    padding: 20px;
-    border-color: black;
-    background: tan;
-    background-clip: border-box;
-    color: black;
-    text-decoration: overline;
-    font-style: italic;
-    display: inline-block;
-  }
-  p {
-    color:black;
-    padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
->>>>>>> 0c8e334bc9e97eb8af69d9bac26d852ef9854d75
     font-weight: bolder;
     font-size: 150%;
   }
@@ -106,7 +79,6 @@ body {
     font-family: 'Zilla Slab', serif;
     font-size: 300%;
   }
-<<<<<<< HEAD
   #navBar{
     float: right;
     width:100%;
@@ -147,19 +119,6 @@ body {
   border-right: 0px;
 } */
 .footer {
-=======
-
-  .about-me {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: black;
-  }
-
-  .footer {
->>>>>>> 0c8e334bc9e97eb8af69d9bac26d852ef9854d75
     padding: 60px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
