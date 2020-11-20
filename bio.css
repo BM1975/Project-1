@@ -1,29 +1,56 @@
-p {
-    color:white;
+#paraText {
+    color:black;
     padding: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bolder;
-    font-size: 100%;
+    font-size: 150%;
     text-indent: 5%;
     text-align: center;
+    margin: auto;
+    display: block;
   }
-  nav{
+  .navbar{
     background-color: thistle;
+    overflow: hidden;
     
   }
+  #logo{
+    width: 100px;
+    height: 44px;
+    float: left;
+  }
+
+.navbar button{
+  background-color: rgb(224, 169, 16);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    float: left;
+    text-align:center;
+    padding: 8px 16px
+}
+
+  #bioPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+  }
+
 
   h1 {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 300%;
+    font-size: 450%;
     text-align: center;
   }
 
   h3 {
-      color: white;
+      color: black;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       text-align: center;
   }
+ 
+
   #header {
     border: 8px groove black;
     padding: 20px;
@@ -33,20 +60,39 @@ p {
     color: black;
     text-decoration: overline;
     font-style: italic;
-    display: inline-block;
-    margin-left: 35%;
-    display: inline-block;
-    
-  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
   }
+
+  #paraText{
+    background-color: thistle;
+    
+  }
+ 
   #home {
    
     padding: 100px;
     margin-left: 100px;
     margin-right: 100px;
     float: left;
-    
   }
+
   body{
     background-color: black;
   }
+
+  #job {
+    font-size: 300%;
+    text-decoration: underline;
+    background: rgb(224, 169, 16);
+  }
+
+  #quote {
+    font-size: 200%;
+    background: rgb(224, 169, 16);
+     
+  }
+ 
+ 
