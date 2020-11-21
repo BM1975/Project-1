@@ -1,7 +1,6 @@
-var APIKey = "b1bf4038c068f0c0f33135c2664f2e51";
+// var APIKey = "b1bf4038c068f0c0f33135c2664f2e51";
 // Here we are building the URL we need to query the database
-var queryURL = "https://api.openweathermap.org/data/2.5/weather?" +
-    "id = 1705545 & appid=" + APIKey;
+var queryURL = "http://api.openweathermap.org/data/2.5/weather?q=los+angeles&appid=b1bf4038c068f0c0f33135c2664f2e51";
 // Here we run our AJAX call to the OpenWeatherMap API
 $.ajax({
     url: queryURL,
