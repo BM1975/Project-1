@@ -1,11 +1,31 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 20;
+#logo{
+  float: left;
+  height: 80px;
+
+}
+img{
+  height: 300px;
+  width: auto;
+}
+.owl-stage{
+  display: flex;
+}
+.textCn{
+  border-left-color: gray;
+  border-top-color: gray;
+  border-bottom-color: gray;
+  border-top: 2px;
+  border-left: 2px;
+  border-bottom: none;
+  border-right: none;
+  border-bottom: solid;
+  border-left: solid ;
+  font-family: 'Zilla Slab', serif;
 }
 
-body {
+
     background-color: rgb(177, 152, 177);
+
     text-align: center;
     border: solid;
     border-color: black;
@@ -14,15 +34,16 @@ body {
   }
 
   h1 {
+
     border: 8px groove black;
     padding: 20px;
     border-color: black;
     background: rgb(160, 138, 160);
     background-clip: border-box;
     color: black;
+
     text-decoration: overline;
-    font-style: italic;
-    display: inline-block;
+    font-family: 'Zilla Slab', serif;
   }
 
   h2 {
@@ -36,18 +57,48 @@ body {
   }
 
   p {
-    color:black;
-    padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(184, 184, 184);
+    font-family: 'Zilla Slab', serif;
     font-weight: bolder;
     font-size: 150%;
   }
+  #sec1{
+    width: 60%;
+    height: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left;
+  }
+  #sec2{
+    width: 60%;
+    height: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: right;
+  }
+  #sec3{
+    width: 60%;
+    height: auto;
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left;
+  }
+  .secHead{
+    float: left;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    font-size: larger;
+  }
+  .secText{
+    float: bottom;
+  }
 
   h1 {
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(184, 184, 184);
+    font-family: 'Zilla Slab', serif;
     font-size: 300%;
   }
+
 
   .button-1 {
     float: right;
@@ -157,3 +208,4 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
   }
+
