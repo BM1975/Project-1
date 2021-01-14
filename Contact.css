@@ -23,8 +23,9 @@ img{
   font-family: 'Zilla Slab', serif;
 }
 
-body {
-    background-color: black;
+
+    background-color: rgb(177, 152, 177);
+
     text-align: center;
     border: solid;
     border-color: black;
@@ -33,10 +34,28 @@ body {
   }
 
   h1 {
-    color:rgb(184, 184, 184);
+
+    border: 8px groove black;
+    padding: 20px;
+    border-color: black;
+    background: rgb(160, 138, 160);
+    background-clip: border-box;
+    color: black;
+
     text-decoration: overline;
     font-family: 'Zilla Slab', serif;
   }
+
+  h2 {
+    background: rgb(121, 102, 121);
+    padding-top: 10px;
+    bot
+    background-clip: border-box;
+    color: black;
+    text-decoration: overline;
+    font-style: italic;
+  }
+
   p {
     color:rgb(184, 184, 184);
     font-family: 'Zilla Slab', serif;
@@ -79,48 +98,114 @@ body {
     font-family: 'Zilla Slab', serif;
     font-size: 300%;
   }
-  #navBar{
+
+
+  .button-1 {
     float: right;
-    width:100%;
-    height: 80px;
-    background-color: thistle;
-    color: goldenrod;
-    font-family: 'Zilla Slab', serif;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    width: 130px;
+    cursor: pointer;
+    margin: 0px;
   }
-.headerBtn{
-  float: center;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  height: 50px;
-  background-color: rgb(221, 177, 221);
-  border: 2px solid rgb(224, 169, 16);
-  /* border-color: rgb(224, 169, 16); */
-  font-family: 'Zilla Slab', serif;
-}
-.textCn{
-  border-left-color: gray;
-  border-top-color: gray;
-  border-bottom-color: gray;
-  border-top: 2px;
-  border-left: 2px;
-  border-bottom: none;
-  border-right: none;
-  border-bottom: solid;
-  border-left: solid ;
-  font-family: 'Zilla Slab', serif;
-}
-/* .textCn{
-  border-color: gray;
-  border-top: 6px;
-  border-left: 6px;
-  border-bottom: 0px;
-  border-right: 0px;
-} */
-.footer {
-    padding: 60px;
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: thistle;
+  }
+  button:hover span {
+    padding-right: 25px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button-2 {
+    display: block;
+    float: right;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    padding: 0px;
+    width: 130px;
+    cursor: pointer;
+    margin: 0px;
+  }
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  button:hover {
+    background-color: thistle;
+  }
+  button:hover span {
+    padding-right: 25px;
+  }
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .image {
+    float: left;
+    background: black;
+    background-size: auto;
+    background-attachment: fixed;
+    padding-right: 20px;
+  }
+
+  .about-me {
+    float: right 100px;
+    background-position: top;
+    margin-left: 10px;
+    padding: 0px;
+    height: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+  }
+
+  .merch {
+    size: 10px;
+    
+  }
+
+  .search-engine-optimization {
+    background-color: rgb(121, 102, 121);
+  }
+
+  .footer {
+    margin-bottom: 800px;
+    border-bottom: 500px;
+    padding: 100px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-};
+  }
+
